@@ -8,4 +8,4 @@ Best wm with my own custom color scheme and patches.
 I use a fork of [picom](https://github.com/ibhagwan/picom) with rounded corners and stuff (Might change later).
 
 # Install
-The install script just copies picom.conf to /etc/xdg, then unzips the DWM and make installs it.
+The install script just copies picom.conf to /etc/xdg, then unzips DWM and make installs it.
