@@ -1,6 +1,6 @@
 #! /bin/sh
 
-doas cp picom.conf /etc/xdg/
+sudo cp compton.conf /etc/xdg/
 unzip dwm.zip
 cd dwm
 doas make install
