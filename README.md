@@ -5,7 +5,7 @@
 Best wm with my own custom color scheme and patches.
 
 # Picom
-I use a fork of [picom](https://github.com/ibhagwan/picom) with rounded corners and stuff (Might change later).
+I use a fork of [compton](https://github.com/tryone144/compton) with blur and stuff.
 
 # Install
 The install script just copies picom.conf to /etc/xdg, then unzips DWM and make installs it.
