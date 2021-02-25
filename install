@@ -1,6 +1,7 @@
 #! /bin/sh
 
-sudo cp compton.conf /etc/xdg/
+doas cp compton/compton.conf /etc/xdg/
+doas cp tilda/config_0 /.config/tilda
 unzip dwm.zip
 cd dwm
 doas make install
