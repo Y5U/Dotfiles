@@ -4,7 +4,7 @@
 # DWM
 Best wm with my own custom color scheme and patches.
 
-# Picom
+# Compositor
 I use a fork of [compton](https://github.com/tryone144/compton) with blur and stuff.
 
 # Install
