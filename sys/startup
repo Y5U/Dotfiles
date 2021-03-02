@@ -1,6 +1,8 @@
+#! /bin/bash
+
 xrandr --output DP-1 --mode 1920x1080 -r 144
 xrandr --output DP-1 --right-of HDMI-2
 xrandr --output HDMI-2 --mode 2560x1080 -r 75
-feh --bg-fill ~/Programs/dotfiles/wallpapers/LinuxPenguinWallpaper21:9.png
+feh --bg-fill ~/Programs/dotfiles/sys/wallpapers/LinuxPenguinWallpaper21:9.png
 xinput --set-prop "pointer:ROCCAT ROCCAT Kone Pure Military Mouse" 'libinput Accel Profile Enabled' 0, 1
 xinput --set-prop "pointer:ROCCAT ROCCAT Kone XTD" 'libinput Accel Profile Enabled' 0, 1
