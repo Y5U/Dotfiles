@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#Restart to take effect
+#Thanks u/VenditatioDelendaEst
+
+mkdir -p /etc/libinput
+tee /etc/libinput/local-overrides.quirks >/dev/null <<ENDHERE
+[Never Debounce]
+MatchUdevType=mouse
+ModelBouncingKeys=1
+ENDHERE
