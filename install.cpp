@@ -32,10 +32,10 @@ int main(){
 				system("sudo cp sys/make.conf /etc/portage");
 				break;
 			case(4):
-				system("cd prgms/dwm && sudo make clean install && cd ../..");
+				system("cd prgms && unzip dwm.zip && cd dwm && sudo make clean install && cd ../..");
 				break;
 			case(5):
-				system("cd prgms/st && sudo make clean install && cd ../..");
+				system("cd prgms && unzip st.zip && cd st && sudo make clean install && cd ../..");
 				break;
 			case(6):
 				system("sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && cd .. && rm -rf yay");
