@@ -1,0 +1,5 @@
+escape Super_L
+
+bind d exec dmenu_run
+bind Backslash exec firefox -p
+bind Return exec st
